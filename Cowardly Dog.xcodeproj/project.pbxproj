@@ -12,6 +12,8 @@
 		524D0BF5222829E400D625CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 524D0BF3222829E400D625CD /* Main.storyboard */; };
 		524D0BF7222829E400D625CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 524D0BF6222829E400D625CD /* Assets.xcassets */; };
 		524D0BFA222829E400D625CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 524D0BF8222829E400D625CD /* LaunchScreen.storyboard */; };
+		524D0C0222282E8100D625CD /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 524D0C0122282E8100D625CD /* README.md */; };
+		524D0C052228331000D625CD /* screenshot.gif in Resources */ = {isa = PBXBuildFile; fileRef = 524D0C042228331000D625CD /* screenshot.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		524D0BF6222829E400D625CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		524D0BF9222829E400D625CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		524D0BFB222829E400D625CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		524D0C0122282E8100D625CD /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		524D0C042228331000D625CD /* screenshot.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = screenshot.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +42,8 @@
 		524D0BE3222829E400D625CD = {
 			isa = PBXGroup;
 			children = (
+				524D0C0322282EE400D625CD /* README_resource */,
+				524D0C0122282E8100D625CD /* README.md */,
 				524D0BEE222829E400D625CD /* Cowardly Dog */,
 				524D0BED222829E400D625CD /* Products */,
 			);
@@ -62,6 +68,14 @@
 				524D0BFB222829E400D625CD /* Info.plist */,
 			);
 			path = "Cowardly Dog";
+			sourceTree = "<group>";
+		};
+		524D0C0322282EE400D625CD /* README_resource */ = {
+			isa = PBXGroup;
+			children = (
+				524D0C042228331000D625CD /* screenshot.gif */,
+			);
+			path = README_resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,7 +138,9 @@
 			files = (
 				524D0BFA222829E400D625CD /* LaunchScreen.storyboard in Resources */,
 				524D0BF7222829E400D625CD /* Assets.xcassets in Resources */,
+				524D0C0222282E8100D625CD /* README.md in Resources */,
 				524D0BF5222829E400D625CD /* Main.storyboard in Resources */,
+				524D0C052228331000D625CD /* screenshot.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
